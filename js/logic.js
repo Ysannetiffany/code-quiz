@@ -174,7 +174,6 @@ function clockTick() {
 
 // use this function when the user presses the "enter" key when submitting high score initials
 function checkForEnter(event) {
-  // "13" represents the enter key
   if (event.key === "Enter") {
     saveHighscore();
   }
