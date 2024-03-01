@@ -168,13 +168,12 @@ function clockTick() {
     window.localStorage.setItem("highscores", JSON.stringify(highscores));
 
     /// finally, redirect the user to the high scores page.
-    window.location.href="/Users/ysannewilliams/projects/code-quiz/highscores.html";
+    window.location.href= ".//highscores.html";
   }
 }
 
 // use this function when the user presses the "enter" key when submitting high score initials
 function checkForEnter(event) {
-  // "13" represents the enter key
   if (event.key === "Enter") {
     saveHighscore();
   }
